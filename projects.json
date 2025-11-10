@@ -1,26 +1,34 @@
 [
   {
-    "title": "Influencer GTM for DTC Beauty",
-    "tagline": "Identified mid\u2011tier creators, ran A/B hooks, lifted CTR by 21%.",
-    "role": "Influencer Marketing",
+    "title": "Hybrid AI for Carbon Credit Markets",
+    "tagline": "Conceptual framework to optimise market efficiency and integrity.",
+    "role": "AI in Business",
     "year": 2025,
     "url": "#",
     "image": "assets/project-1.jpg"
   },
   {
-    "title": "Luxury Marketplace Audit",
-    "tagline": "Benchmarked Farfetch vs. multi\u2011brand peers, mapped retention gaps.",
-    "role": "Strategy",
+    "title": "JellyCat 360\u00b0 Brand Campaign",
+    "tagline": "Integrated positioning, creative, and channel plan across the funnel.",
+    "role": "Branding & Communication",
     "year": 2025,
     "url": "#",
     "image": "assets/project-2.jpg"
   },
   {
-    "title": "Sweet Root \u2014 Fruit Sushi",
-    "tagline": "Positioning, packaging mockups, and buyer research for launch.",
-    "role": "Brand",
-    "year": 2025,
+    "title": "Social Media Audit \u2014 Emirates vs. Ryanair",
+    "tagline": "SEMrush\u2011assisted benchmarking: keywords, engagement, content performance.",
+    "role": "Marketing Analytics",
+    "year": 2024,
     "url": "#",
     "image": "assets/project-3.jpg"
+  },
+  {
+    "title": "European Hospitality Trends (R)",
+    "tagline": "Exploratory analysis using Airbnb and Booking.com datasets.",
+    "role": "Data Analysis with R",
+    "year": 2024,
+    "url": "#",
+    "image": "assets/project-4.jpg"
   }
 ]

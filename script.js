@@ -18,18 +18,18 @@ fetch('projects.json')
     projects.forEach(p => {
       const li = document.createElement('article');
       li.className = 'card';
-      li.innerHTML = \`
-        <a href="\${p.url}" target="_blank" rel="noopener">
-          <img src="\${p.image}" alt="\${p.title} preview" loading="lazy">
-          <h3>\${p.title}</h3>
-          <p>\${p.tagline}</p>
+      li.innerHTML = `
+        <a href="${p.url}" target="_blank" rel="noopener">
+          <img src="${p.image}" alt="${p.title} preview" loading="lazy">
+          <h3>${p.title}</h3>
+          <p>${p.tagline}</p>
           <div class="meta-inline">
-            <span>\${p.role}</span>
+            <span>${p.role}</span>
             <span>•</span>
-            <time datetime="\${p.year}-01-01">\${p.year}</time>
+            <time datetime="${p.year}-01-01">${p.year}</time>
           </div>
           <span class="external">Open case study →</span>
-        </a>\`;
+        </a>`;
       grid.appendChild(li);
     });
   })
