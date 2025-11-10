@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jyothi Lakshmi — Portfolio</title>
+  <meta name="description" content="Portfolio of Jyothi Lakshmi — Marketing & Strategy projects, case studies, and writing.">
+  <meta property="og:title" content="Jyothi Lakshmi — Portfolio">
+  <meta property="og:description" content="Marketing & Strategy projects, case studies, and writing.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/og-image.png">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="logo" href="#" aria-label="Home">JL</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list"><span class="sr-only">Menu</span>☰</button>
+      <ul id="nav-list" class="nav-list">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#writing">Writing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container">
+      <div class="hero-text">
+        <h1>Hi, I’m <span class="accent">Jyothi Lakshmi</span>.</h1>
+        <p class="lead">MSc in Marketing & Strategy (WBS). I turn research, analytics, and storytelling into <strong>brand growth</strong> and <strong>customer love</strong>.</p>
+        <div class="hero-cta">
+          <a class="button" href="#work">See my work</a>
+          <a class="button button-secondary" href="assets/JyothiLakshmi_CV.pdf" download>Download CV</a>
+        </div>
+        <ul class="meta-inline">
+          <li>Based in: India</li>
+          <li>Open to: Influencer Marketing, Strategy, Growth</li>
+        </ul>
+      </div>
+      <figure class="hero-figure">
+        <img src="assets/portrait-placeholder.jpg" alt="Portrait of Jyothi Lakshmi" width="520" height="520" loading="lazy">
+      </figure>
+    </section>
+
+    <section id="work" class="container section">
+      <h2>Selected work</h2>
+      <p class="section-intro">Case studies and projects that show how I think and the outcomes I drive.</p>
+      <div id="project-grid" class="grid"></div>
+      <div class="section-actions">
+        <a class="button button-secondary" href="projects.json" target="_blank" rel="noopener">View projects.json</a>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h2>About</h2>
+      <div class="about-grid">
+        <p>I’m a marketer with a physics brain: I love combining <em>rigour</em> with <em>creativity</em>. My toolkit includes customer research, experimentation, influencer partnerships, and crisp content. I enjoy building clear narratives backed by data.</p>
+        <ul class="checklist">
+          <li>ABM & influencer strategy</li>
+          <li>Consumer behaviour & insights</li>
+          <li>Funnels, dashboards, test design</li>
+          <li>Packaging & brand storytelling</li>
+        </ul>
+      </div>
+      <div class="stats">
+        <div class="stat"><span class="stat-number">10+</span><span class="stat-label">case studies</span></div>
+        <div class="stat"><span class="stat-number">4</span><span class="stat-label">brand audits</span></div>
+        <div class="stat"><span class="stat-number">3</span><span class="stat-label">campaigns shipped</span></div>
+      </div>
+    </section>
+
+    <section id="writing" class="container section">
+      <h2>Writing</h2>
+      <ul class="cards" id="writing-list">
+        <li class="card">
+          <a href="#" aria-label="Read: Luxury e‑commerce omnichannel dilemmas">
+            <h3>Luxury e‑commerce: omnichannel dilemmas</h3>
+            <p>Notes from a brand strategy critique; retention vs. marketplace trade‑offs.</p>
+            <span class="external">Read →</span>
+          </a>
+        </li>
+        <li class="card">
+          <a href="#">
+            <h3>Sustainable packaging that customers actually want</h3>
+            <p>Putting cellulose vs. paper to the test through messaging.</p>
+            <span class="external">Read →</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2>Contact</h2>
+      <p>Got a role, project, or collaboration in mind? I’d love to hear.</p>
+      <ul class="contact-list">
+        <li><a href="mailto:hello@example.com">hello@example.com</a></li>
+        <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+      <form class="contact-form" action="mailto:hello@example.com" method="post" enctype="text/plain">
+        <label for="name">Name</label>
+        <input id="name" name="name" required>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button class="button" type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Jyothi Lakshmi. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
